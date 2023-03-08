@@ -21,10 +21,13 @@ int main()
                 arr[i]=arr[j+1];
                 arr[j+1]=temp;
             }
-        }
+        }   
     }
     printf("\n enterd array is:");
     for(i=0;i<size;i++)
     printf("\t%d",arr[i]);
+    printf("\n array is %d iteration:",j+1);
+    for(j=0;j<size;j++)
+    printf("\t%d",arr[j]);
 return 0;
 }
